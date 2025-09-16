@@ -1,0 +1,6 @@
+.grid__content {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 1rem;
+}
+
