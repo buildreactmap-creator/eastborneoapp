@@ -14,8 +14,8 @@ function App() {
       <Navbar isCloseAside={isCloseAside} setCloseAside={setCloseAside} />
       <div className={`main-content ${isCloseAside ? "collapse" : ""}`}>
         <Routes>
-          <Route path="/" element={<AppContent />} />
-          <Route path="/pdb-perikanan" element={<Pdb />} />
+          <Route path="/geofish" element={<AppContent />} />
+          <Route path="/geofish/pdb-perikanan" element={<Pdb />} />
         </Routes>
       </div>
     </BrowserRouter>
